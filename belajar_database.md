@@ -167,3 +167,13 @@ SAVEPOINT sebelum_hapus;
 
 8. Akhiri transaction dengan commit
     COMMIT;
+
+
+soal 2:
+Berikan penjelasan kapan saat yang tepat menggunakan LOCK TABLES READ
+digunakan ketika ingin mencegah perubahan data pada tabel tertentu selama proses bacaan (read) sedang dilakukan oleh transaksi atau Query lain
+
+soal 3:
+Berikan penjelasan kapan saat yang tepat menggunakan LOCK TABLES WRITE
+digunakan ketika ingin mencegah perubahan data pada tabel tertentu oleh transaksi atau query lain selama proses penulisan (write) sedang dilakukan
+
